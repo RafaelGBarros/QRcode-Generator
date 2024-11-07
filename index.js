@@ -1,6 +1,6 @@
-import inquirer from 'inquirer'
-import qr from 'qr-image'
-import fs from 'fs'
+import inquirer from 'inquirer' //CLI interativa
+import qr from 'qr-image' //Criacao da im QR code
+import fs from 'fs' // File System - interacao com arquivos
 
 inquirer
     .prompt([{
